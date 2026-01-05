@@ -27,7 +27,7 @@ homepage_content_html = markdown.markdown(
 # ---------------- Regex ----------------
 
 AUTHOR_RE = re.compile(r"^###\s+(.+)", re.MULTILINE)
-WORK_RE = re.compile(r"-\s+\[([^\]]+)\]\((/[^)]+)\)")
+WORK_RE = re.compile(r"-\s+\[([^\]]+)\]\((./[^)]+)\)")
 
 # ---------------- Parse index.md ----------------
 
@@ -48,7 +48,7 @@ for author_match in AUTHOR_RE.finditer(md_text):
 for author, works in authors:
     for title, raw_path in works:
         # Normalize path: /nam-cao_song-mon or /nam-cao_song-mon/
-        ten_tep = raw_path.strip("/")
+        ten_tep = raw_path.strip().lstrip("./").rstrip("/")
 
         # author_path = phần trước dấu "_"
         author_path = ten_tep.split("_", 1)[0]
