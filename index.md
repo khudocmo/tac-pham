@@ -78,3 +78,9 @@
 - [Kỹ nghệ lấy Tây](./vu-trong-phung_ky-nghe-lay-tay/)
 - [Cơm thầy cơm cô](./vu-trong-phung_com-thay-com-co/)
 - [Lục xì](./vu-trong-phung_luc-xi/)
+
+### Nhất Linh và Khái Hưng
+
+- [Anh phải sống](./nhat-linh-va-khai-hung_anh-phai-song/)
+- [Gánh hàng hoa](./nhat-linh-va-khai-hung_ganh-hang-hoa/)
+- [Đời mưa gió](./nhat-linh-va-khai-hung_doi-mua-gio)
