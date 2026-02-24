@@ -84,3 +84,7 @@
 - [Anh phải sống](./nhat-linh-va-khai-hung_anh-phai-song/)
 - [Gánh hàng hoa](./nhat-linh-va-khai-hung_ganh-hang-hoa/)
 - [Đời mưa gió](./nhat-linh-va-khai-hung_doi-mua-gio)
+
+### Nguyễn Đình Lạp
+
+- [Ngoại ô](./nguyen-dinh-lap_ngoai-o/)

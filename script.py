@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parent
 INDEX_MD = ROOT_DIR / "index.md"
 TEMPLATE_PATH = ROOT_DIR / "template.html"
-DOCS_DIR = ROOT_DIR / "docs"
+DOCS_DIR = ROOT_DIR / "out"
 HOMEPAGE_TEMPLATE = ROOT_DIR / "homepage_template.html"
 
 DOCS_DIR.mkdir(exist_ok=True)

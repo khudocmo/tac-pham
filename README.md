@@ -1,9 +1,9 @@
 # Danh sách tác phẩm
 
-Chạy để build toàn bộ trang danh sách tác phẩm.
+Chạy để build toàn bộ trang danh sách tác phẩm (Run on Linux).
 
-```
-python3 script.py
+```bash
+python3 script.py && python3 generate_sitemap.py
 ```
 
-Sẽ được lưu ở thư mục `docs/`
+Sẽ được lưu ở thư mục `out/`
